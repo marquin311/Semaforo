@@ -16,3 +16,15 @@ Liga o LED correspondente ao novo estado.
 Loop Principal (while):
 
 Imprime o estado atual do semáforo no terminal UART a cada 1 segundo.
+
+Componentes Utilizados:
+
+1x Raspberry Pi Pico W
+3x LEDs (Vermelho, Amarelo e Verde)
+3x Resistores de 330Ω
+
+ Esquema de Ligação:
+
+LED Vermelho:	GPIO 13
+LED Amarelo:	GPIO 12
+LED Verde:	GPIO 11
